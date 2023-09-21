@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
             <div className='divFooterContainer'>
                 <div className='divContactanos'>
-                    <h2>Contactános</h2>
+                    <h2>Contactanos</h2>
                     <ul className='ulContactanos'>
                         <li className='liContactos'>Email: consultoriobadon@gmail.com</li>
                         <li className='liContactos'>Whatsapp: 11-5555-5555</li>

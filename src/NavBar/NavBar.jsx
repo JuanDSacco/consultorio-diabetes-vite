@@ -7,7 +7,7 @@ const NavBar = () => {
         <div className='divNavBar'>
             <ul className='ulNavBar'> 
                 <Link to={'/'}><li className='liNavBar'>Inicio</li></Link>
-                <Link to={'/actividades'}><li className='liNavBar'>¿Qué es la diabetes?</li></Link>
+                <Link to={'/que-es-la-diabetes'}><li className='liNavBar'>¿Qué es la diabetes?</li></Link>
                 <div className="btn-group" role="group">
                 <button id='buttonRecomendaciones' type="button" className="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Recomendaciones</button>
                 <div className="dropdown-menu">

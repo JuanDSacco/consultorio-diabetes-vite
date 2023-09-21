@@ -12,6 +12,7 @@ import QuienesSomos from './Routes/QuienesSomos/QuienesSomos'
 import Contacto from './Routes/Contacto/Contacto'
 import Index from './Routes/Index/Index'
 import Footer from './Footer/Footer'
+import QueEsLaDiabetes from './Routes/QueEsLaDiabetes/QueEsLaDiabetes'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <NavBar/>
         <Routes>
           <Route path='/' element={<Index/>}/>
+          <Route path='/que-es-la-diabetes' element={<QueEsLaDiabetes/>}/>
           <Route path='/actividades' element={<Actividades/>}/>
           <Route path='/quienes-somos' element={<QuienesSomos/>}/>
           <Route path='/contacto' element={<Contacto/>}/>

@@ -110,7 +110,7 @@ $colorSecundario : rgb(203, 207, 236);
 
 .divIndexContainer{
 
-    background-image: linear-gradient(#fff,$colorPrincipal);
+    background-image: linear-gradient(#fff,$colorPrincipal,#fff);
 
     .divCarousel{
         display: flex;
@@ -168,8 +168,7 @@ $colorSecundario : rgb(203, 207, 236);
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    //background-color: $colorSecundario;
-    background-image: linear-gradient($colorSecundario,$colorPrincipal);
+    background-image: linear-gradient(#fff,$colorSecundario,$colorPrincipal);
     color: #000;
     height: 230px;
     margin: 0;
@@ -216,7 +215,7 @@ $colorSecundario : rgb(203, 207, 236);
 .divDesarrollo{
     text-align: center;
     background-color: $colorPrincipal;
-    color: #fff;
+    color: #000;
     
     h4{
         margin: 0;
@@ -227,7 +226,28 @@ $colorSecundario : rgb(203, 207, 236);
 /* Quienes Somos */
 
 .divQuienesSomosContainer{
-    background-color: $colorSecundario;
+    background-image: linear-gradient(#fff,$colorSecundario,#fff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+
+    .h2Profesionales{
+        padding-top: 20px;
+    }
+
+    .h2Institucion{
+        text-decoration: underline;
+        padding-bottom: 25px;
+    }
+
+    .imgInstitucion{
+        padding-bottom: 30px;
+    }
+
+    .divQuienesSomosCards{
+        margin-bottom: 20px;
+    }
 }
 
 .divQuienesSomosContainerDetail{
@@ -237,6 +257,11 @@ $colorSecundario : rgb(203, 207, 236);
     align-items: center;
     padding-bottom: 40px;
     padding-top: 40px;
+    border: 2px solid #000;
+    width: max-content;
+    padding-right: 100px;
+    padding-left: 100px;
+
 
     .divQuienesSomosLista{
 
@@ -265,3 +290,75 @@ $colorSecundario : rgb(203, 207, 236);
         }
     }
 }
+
+.divTextoQuienesSomos{
+    text-align: center;
+
+    p{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 20px;
+    }
+}
+
+/* Contacto */
+
+.divContactoContainer{
+    background-image: linear-gradient(#fff,$colorSecundario,#fff);
+    padding-top: 50px;
+
+    h2{
+        text-align: center;
+    }
+    
+    h4{
+        text-align: center;
+        padding-bottom: 50px;
+        font-size: 18px;
+    }
+
+    #buttonContacto{
+        background-color: $colorPrincipal;
+        border-color: $colorPrincipal;
+    }
+
+    .spanContacto{
+        font-size: 22px;
+                color: red;
+    }
+}
+
+/* Que es la diabetes */
+
+.divQueEsLaDiabetesContainer{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    .divQueEsLaDiabetes{
+        text-align: center;
+        width: 800px;
+
+        ul{
+            li{
+                list-style: none;
+            }
+        }
+    }
+
+    .divPQueEsLaDiabetes{
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .pFinalQueEsLaDiabetes{
+            border: 1px solid #000;
+            font-size: 20px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-weight: bold;
+        }
+    }
+
+}
+
