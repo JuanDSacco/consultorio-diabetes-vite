@@ -359,6 +359,24 @@ $colorSecundario : rgb(203, 207, 236);
             font-weight: bold;
         }
     }
-
 }
 
+/* Prevencion cardiovascular */
+
+.divPrevCardioContainer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h1{
+        padding-bottom: 20px;
+    }
+
+    .divUlPrevCardio{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: start;
+    }   
+
+}
