@@ -378,5 +378,32 @@ $colorSecundario : rgb(203, 207, 236);
             align-items: center;
             text-align: start;
     }   
+}
 
+/* Actividad fisica */
+
+.divActFisicaContainer{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        text-decoration: underline;
+        padding-bottom: 20px;
+    }
+
+    .divActFisica{
+        width: 800px;
+    }
+
+    .divH5ActFisica{
+        text-align: center;
+        padding: 30px;
+
+        h5{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
 }

@@ -13,7 +13,7 @@ const NavBar = () => {
                 <div className="dropdown-menu">
                         <ul className='ulRecomendaciones'>
                             <Link to={'/alimentacion'}><li>Alimentación</li></Link>
-                            <Link to={'/actividad-disica'}><li>Actividad física</li></Link>
+                            <Link to={'/actividad-fisica'}><li>Actividad física</li></Link>
                             <Link to={'/prevencion-cardiovascular'}><li>Prevención cardiovascular</li></Link>
                             <Link to={'/prevencion-oftalmologica'}><li>Prevención oftalmológica</li></Link>
                             <Link to={'/pie-diabeitco'}><li>Pie diabético</li></Link>
